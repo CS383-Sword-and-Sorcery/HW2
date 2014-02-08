@@ -1,0 +1,114 @@
+\documentclass[12pt,letterpaper]{scrreprt}
+
+%----------------------------------------------------------------------
+%				Required Packages
+%----------------------------------------------------------------------
+\usepackage{usecases}
+\usepackage{enumitem}
+%\usepackage{paralist}
+%\usepackage{tabto}
+\usepackage[top=2cm,bottom=3.5cm]{geometry}
+
+%----------------------------------------------------------------------
+%				Title Page
+%----------------------------------------------------------------------
+\title{CS383: Software Engineering}
+\subtitle{HW1: Use Cases\\Spring 2014}
+\author{Matt, Tao, John, Cameron, Gabe, David} % Include last names?
+\date{}
+
+%----------------------------------------------------------------------
+%				Additional Settings
+%----------------------------------------------------------------------
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+
+
+%----------------------------------------------------------------------
+%				Playtest Document Starts
+%----------------------------------------------------------------------
+\begin{document}
+
+% Initializations
+%\NumTabs{2} % This is for creating a two column use case scenario
+\maketitle
+\tableofcontents % Eventually uncomment this
+
+
+%----------------------------------------------------------------------
+%				Use Case Document Starts
+%----------------------------------------------------------------------
+\chapter{Use Cases}
+
+%==================================================
+%				Magic: Tao Zhang
+%==================================================
+\section{Magic}
+\paragraph{(Author: Tao Zhang)}
+            \subsection{Cast a Spell}
+                \begin{usecase}
+                  \addtitle{Magic I}{Cast a Spell}
+                  \additemizedfield{Actors}{
+                    \item Phasing player
+                  }
+                  \addfield{Goal}{Phasing player cast spells}
+                  \additemizedfield{Preconditions}{
+                    \item Phasing player is in one of the following phase
+                    	\begin{enumerate}
+                    		\item Movement
+                    		\item Spell Segment
+                    		\item Combat
+                    	\end{enumerate}
+                  }
+                  \addfield{Summary}{Phasing player gonna cast enough spells he want during his turn}
+                  \additemizedfield{Related Usecases}{
+                  	\item Movement
+                  	\item Combat                  
+                  }
+                  \addscenario{Steps}{
+                  	\item Phasing Player select a character with PL
+					\item Phasing player select an available spell
+					\item player selects a target for the spell
+					\item Player imform to cast this spell
+					\item repeat to cast enough spells
+                  }
+                  \additemizedfield{Alternative}{
+					\item Only in Movement and spell segment:
+						\begin{enumerate}
+							\item Phasing player can choose a higher level spell with warning red background.
+							\item Computer will computes the result if successfully cast the spell and whether the charater survive or not
+						\end{enumerate}	
+					\item Player click on the buttom "End of casting spells" which the bottom will always be displayed on side of the screen					               
+                  }
+                \end{usecase}
+                
+                \subsection{Cast a CounterSpell}
+                \begin{usecase}
+                  \addtitle{Magic II}{Cast a CounterSpell}
+                  \additemizedfield{Actors}{
+                  	\item Non-phasing Player
+                  }
+                  \addfield{Goal}{Non-phasing players cast counterspells}
+                  \additemizedfield{Preconditions}{
+                  	\item End of phasing player's spell segment
+                  }
+                  \addfield{Summary}{All non-phasing player will do this at the same time, and once all of them have clicked the "end of counterspell" button. The server will then turn to let phasing player control}
+                  \addscenario{Steps}{
+                  	\item Non-phasing player select a charater with PL
+					\item Select an available counterspell
+					\item Select a target to cast this spell
+					\item Repeat to select enough counterspells
+                  }
+                  \additemizedfield{Alternative}{
+                  	\item Non-phasing player click the button "End of casting counterspells". 
+                  }
+                  
+                \end{usecase}
+                
+                
+                
+
+                 
+\end{document}

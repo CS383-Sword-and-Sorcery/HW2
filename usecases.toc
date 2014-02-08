@@ -1,0 +1,5 @@
+\contentsline {chapter}{\numberline {1}Use Cases}{3}
+\contentsline {section}{\numberline {1.1}Magic}{3}
+\contentsline {paragraph}{\nonumberline (Author: Tao Zhang)}{3}
+\contentsline {subsection}{\numberline {1.1.1}Cast a Spell}{3}
+\contentsline {subsection}{\numberline {1.1.2}Cast a CounterSpell}{4}
