@@ -1,0 +1,12 @@
+@startuml
+
+title Starting and Ending Games
+User -> (New-Game)
+User -> (Resume-Game)
+User -> (Save-Game)
+(New-Game) --> (Select-Scenario) : Uses
+(Select-Scenario)--> (Select-Race) : Uses
+
+OtherPlayers --> (New-Game) : Must Agree
+
+@enduml
