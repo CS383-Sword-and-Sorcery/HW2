@@ -1,0 +1,45 @@
+@startuml
+
+left to right direction
+
+skinparam packageStyle rect
+actor Anoymous_User
+actor Player
+actor Admin
+rectangle Main_Menu {
+  Anoymous_User -- (Register)
+  Player -- (Open Game)
+  Player -- (Login/out)
+  Player -- (Exit Game)
+  Player -- (Resume a Saved Match)
+  Player -- (Save Current Match)
+  Player -- (Start a New Game)
+  Player -- (Game Turn)
+  (Login/out) -- Admin
+  (Resume a Saved Match) -- Admin
+  (Save Current Match) -- Admin
+}
+
+rectangle New_Game{
+  (Start a New Game) -- (Select a Scenario)
+  (Start a New Game) -- (Start a New Match)
+  (Start a New Match) -- Admin
+  (Start a New Game) -- (Select a Race)
+  (Start a New Game) -- (Place Units)
+}
+
+rectangle Game_Turn{
+  (Move units/characters) -- (Game Turn)
+  (Cast a Spell/CounterSpell) -- (Game Turn)
+  (Attack) -- (Game Turn)
+}
+
+rectangle System{
+  Admin -- (Display Dice Roll)
+  Admin -- (Display Random Events)
+  Admin -- (Diaplay Random Movements)
+  Admin -- (Display Diplomacy)
+  Admin -- (Regenerat Mana)
+}
+
+@enduml
