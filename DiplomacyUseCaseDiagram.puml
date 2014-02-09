@@ -1,0 +1,13 @@
+@startuml
+
+title Diplomacy
+'default
+user1 --> (Influencing Neutrals)
+user1 --> (Invading Neutrals)
+(Influencing Neutrals) .> (Invading Neutrals)
+user1 --> (Human Sacrifice)
+user1 -up--> (Spawn Emissaries)
+user1 -up--> (Diplomacy)
+user1 -up--> (Alliance Selection)
+
+@enduml
