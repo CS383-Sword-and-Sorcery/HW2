@@ -1,0 +1,39 @@
+@startuml
+title <b>Movement</b>
+actor Player
+actor Computer
+
+rectangle Use-A-Portal{
+
+"Player moves a unit or units onto a portal." as (Step1)
+"Player is asked if they want to use the portal." as (Step2)
+"Teleport an individual unit, or a group of units?" as (Step3)
+"Perform teleportation!" as (Step4)
+"Should an enemy unit occupy an output portal,\n the teleported units should be retreated by one tile." as (Step5)
+
+Player   ->  (Step1)
+Computer ..> (Step3)
+Computer ..> (Step4)
+Computer ..> (Step5)
+
+(Step1)  -->  (Step2)
+(Step2)  -->  (Step3)
+(Step3)  -->  (Step4)
+(Step4)  -->  (Step5)
+}
+
+rectangle Move-a-Unit{
+"Select unit(s)." as (Step12)
+"Computer Highlights hexagons within\n movement range of the selected units" as (Step22)
+"Player selects eligible hexagon." as (Step32)
+"Computer checks for special tile\n attributes (Using a portal for example)." as (Step42)
+
+Player -> (Step12)
+Computer ..> (Step22)
+Computer ..> (Step42)
+
+(Step12)  -->  (Step22)
+(Step22)  -->  (Step32)
+(Step32)  -->  (Step42)
+}
+@enduml
