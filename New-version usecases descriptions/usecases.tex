@@ -108,7 +108,82 @@
                 \end{usecase}
                 
                 
+%========================================================
+%	Selection Section - Gabe Pearhill
+%========================================================                         
+\section{Selection}
+\paragraph{(Author: Gabe Pearhill)}
+            \subsection{Unit Selection}
+                \begin{usecase}
+                  \addtitle{Select Unit(s)}{Select one or more units}
+                  \addfield{Summary}{Player clicks a unit on the game board.}
+                  \additemizedfield{Actors}{
+                    \item Player
+                  }
+                  \additemizedfield{Preconditions}{
+                    \item Phase requiring unit selection.
+                  }
+                  \addscenario{Steps}{
+                    \item Once a phase requiring unit selection begins, the computer highlights all available units. 
+                    \item The user clicks one or more units.
+                    \item Computer saves the selection state.
+                  }
+                  \end{usecase}
                 
+                 
+            \subsection{Hexagon Selection}
+                \begin{usecase}
+                  \addtitle{Select Hexagon}{Record the players hexagon selection.}
+                  \addfield{Summary}{The basic action of selecting a hexagon, be it for magic, movement, or attacking.}
+                  \additemizedfield{Actors}{
+                        \item Player
+                  }
+                  \addscenario{Steps}{
+                                    \item Player clicks on a hex.
+                                    \item Computer records the hex selection.
+                  }
+                \end{usecase}
+
+%========================================
+%	Movement Section - Gabe Pearhill
+%========================================
+\section{Movement}
+\paragraph{(Author: Gabe Pearhill)}
+            \subsection{Move a Unit}
+                \begin{usecase}
+                  \addtitle{Move Unit(s)}{Move unit(s) across the map!}
+                  \addfield{Summary}{During the movement phase the player selects and moves units.}
+                  \additemizedfield{Actors}{
+                    \item Player
+                  }
+                  \additemizedfield{Preconditions}{
+                    \item Movement Phase
+                  }
+                  \addscenario{Steps}{
+                    \item Select unit(s). (See Unit Selection)
+                    \item Computer highlights hexagons within range of the selected units.
+                    \item Player selects an eligible hexagon.
+                    \item Computer checks if tile has special attributes (a portal for example) and takes action appropriately.
+                    \item Handle items relating to zone of control.
+                  }
+                  \end{usecase}
+                
+                 
+            \subsection{Using a Portal}
+                \begin{usecase}
+                  \addtitle{Teleportation}{Give the player the choice to use a portal hexagon.}
+                  \addfield{Summary}{If a unit moves on top of a portal, and the player chooses to use it, the computer must move the selected units to another portal location on the map.}
+                  \additemizedfield{Actors}{
+                        \item Player
+                  }
+                  \addscenario{Steps}{
+                                    \item Player moves on top of a portal hexagon.
+                                    \item Player is provided a dialog giving them the option to use the portal.
+                                    \item If the player chooses to use the portal the player must then choose to teleport his units individually or as a group.
+                                    \item Perform appropriate teleportation.
+                                    \item Should an enemy unit occupy an output portal, the teleported  units should be retreated by one tile.
+                  }
+                \end{usecase}
 
                  
 \end{document}
