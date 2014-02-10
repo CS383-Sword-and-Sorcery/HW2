@@ -1,13 +1,16 @@
-\contentsline {chapter}{\numberline {1}Use Cases}{3}
-\contentsline {section}{\numberline {1.1}Magic}{3}
-\contentsline {paragraph}{(Author: Tao Zhang)}{3}
-\contentsline {subsection}{\numberline {1.1.1}Cast a Spell}{3}
-\contentsline {subsection}{\numberline {1.1.2}Cast a CounterSpell}{4}
-\contentsline {section}{\numberline {1.2}Selection}{5}
-\contentsline {paragraph}{(Author: Gabe Pearhill)}{5}
-\contentsline {subsection}{\numberline {1.2.1}Unit Selection}{5}
-\contentsline {subsection}{\numberline {1.2.2}Hexagon Selection}{5}
-\contentsline {section}{\numberline {1.3}Movement}{6}
-\contentsline {paragraph}{(Author: Gabe Pearhill)}{6}
-\contentsline {subsection}{\numberline {1.3.1}Move a Unit}{6}
-\contentsline {subsection}{\numberline {1.3.2}Using a Portal}{6}
+\contentsline {chapter}{\numberline {1}Description of Network}{3}
+\contentsline {section}{\numberline {1.1}How it work?}{3}
+\contentsline {chapter}{\numberline {2}Use Case Diagrams}{4}
+\contentsline {chapter}{\numberline {3}Use Cases Descriptions}{5}
+\contentsline {section}{\numberline {3.1}Magic}{5}
+\contentsline {paragraph}{\nonumberline (Author: Tao Zhang)}{5}
+\contentsline {subsection}{\numberline {3.1.1}Cast a Spell}{5}
+\contentsline {subsection}{\numberline {3.1.2}Cast a CounterSpell}{6}
+\contentsline {section}{\numberline {3.2}Selection}{7}
+\contentsline {paragraph}{\nonumberline (Author: Gabe Pearhill)}{7}
+\contentsline {subsection}{\numberline {3.2.1}Unit Selection}{7}
+\contentsline {subsection}{\numberline {3.2.2}Hexagon Selection}{7}
+\contentsline {section}{\numberline {3.3}Movement}{8}
+\contentsline {paragraph}{\nonumberline (Author: Gabe Pearhill)}{8}
+\contentsline {subsection}{\numberline {3.3.1}Move a Unit}{8}
+\contentsline {subsection}{\numberline {3.3.2}Using a Portal}{8}
