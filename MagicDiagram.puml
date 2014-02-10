@@ -1,0 +1,32 @@
+@startuml
+
+title Magic\n\nTao Zhang \n
+
+left to right direction
+
+skinparam packageStyle rect
+
+actor Player
+actor Admin
+rectangle Magic{
+  Player -- (select a charater)
+  Player -- (select a spell/counterspell)
+  Player -- (select a target)
+  Player -- (Imform to cast)
+  Player -- (click "End of casting spells")
+}
+
+
+Admin -- (Compute success and survive) 
+
+(select a spell/counterspell) .right.> (Select a higher level spell) : extend
+(Compute success and survive) .up.> (Select a higher level spell)  : include
+
+note right of (Select a higher level spell)
+  Only in Movement and 
+  spell segment.
+end note
+
+
+
+@enduml
