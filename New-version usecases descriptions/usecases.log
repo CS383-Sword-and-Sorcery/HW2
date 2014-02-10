@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.27)  9 FEB 2014 16:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.27)  9 FEB 2014 19:35
 entering extended mode
 **usecases.tex
-
-("C:\Users\张涛\Documents\GitHub\HW2\New-version usecases descriptions\usecas
-es.tex"
+("C:\Users\张涛\Desktop\HW2\New-version usecases descriptions\usecases.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -112,9 +110,8 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-)
-("C:\Users\张涛\Documents\GitHub\HW2\New-version usecases descriptions\usecas
-es.sty" ("W:\LaTex\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+) ("C:\Users\张涛\Desktop\HW2\New-version usecases descriptions\usecases.sty"
+ ("W:\LaTex\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen103
 \lightrulewidth=\dimen104
@@ -165,6 +162,34 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box31
 \enitdp@description=\count98
 )
+("W:\LaTex\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("W:\LaTex\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("W:\LaTex\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("W:\LaTex\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("W:\LaTex\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("W:\LaTex\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("W:\LaTex\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
 ("W:\LaTex\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -179,35 +204,48 @@ Package ifvtex Info: VTeX not detected.
 ("W:\LaTex\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count99
-\Gm@cntv=\count100
-\c@Gm@tempcnt=\count101
-\Gm@bindingoffset=\dimen119
-\Gm@wd@mp=\dimen120
-\Gm@odd@mp=\dimen121
-\Gm@even@mp=\dimen122
-\Gm@layoutwidth=\dimen123
-\Gm@layoutheight=\dimen124
-\Gm@layouthoffset=\dimen125
-\Gm@layoutvoffset=\dimen126
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
 \Gm@dimlist=\toks17
 
 ("W:\LaTex\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Users\张涛\Documents\GitHub\HW2\New-version usecases descriptions\usecas
-es.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+("C:\Users\张涛\Desktop\HW2\New-version usecases descriptions\usecases.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
+("W:\LaTex\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen129
+\scratchbox=\box32
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen130
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks19
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -243,90 +281,186 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 37.
+(Font)              <17.28> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 37.
+(Font)              <12> on input line 43.
 [1
 
 
 
 {C:/Users/张涛/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("C:\Users\张涛\Documents\GitHub\HW2\New-version usecases descriptions\usecas
-es.toc"
+("C:\Users\张涛\Desktop\HW2\New-version usecases descriptions\usecases.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
 )
 \tf@toc=\write3
- [2
+
+[2
 
 ]
 Chapter 1.
-[3
-
-]
-Chapter 2.
-[4
-
-]
-Chapter 3.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
 ("W:\LaTex\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+ [3
 
-Underfull \hbox (badness 1648) in paragraph at lines 91--91
+] [4]
+Chapter 2.
+<Tao-usecase-diagrams.png, id=18, 1130.2225pt x 694.595pt>
+File: Tao-usecase-diagrams.png Graphic file (type png)
+
+<use Tao-usecase-diagrams.png>
+Package pdftex.def Info: Tao-usecase-diagrams.png used on input line 84.
+(pdftex.def)             Requested size: 452.081pt x 277.83307pt.
+
+Overfull \hbox (22.07637pt too wide) in paragraph at lines 84--85
+[] 
+ []
+
+<menuSelection.png, id=19, 586.19pt x 505.89pt>
+File: menuSelection.png Graphic file (type png)
+ <use menuSelection.png>
+Package pdftex.def Info: menuSelection.png used on input line 86.
+(pdftex.def)             Requested size: 351.7167pt x 303.53633pt.
+
+[5
+
+ <C:/Users/张涛/Desktop/HW2/New-version usecases descriptions/Tao-usecase-dia
+grams.png (PNG copy)>] <usecasesJohn.png, id=23, 1055.945pt x 238.8925pt>
+File: usecasesJohn.png Graphic file (type png)
+
+<use usecasesJohn.png>
+Package pdftex.def Info: usecasesJohn.png used on input line 88.
+(pdftex.def)             Requested size: 422.37051pt x 95.5553pt.
+
+<MovementUseCaseDiagrams.png, id=24, 987.69pt x 813.0375pt>
+File: MovementUseCaseDiagrams.png Graphic file (type png)
+
+<use MovementUseCaseDiagrams.png>
+Package pdftex.def Info: MovementUseCaseDiagrams.png used on input line 90.
+(pdftex.def)             Requested size: 493.8438pt x 406.51776pt.
+
+Overfull \hbox (63.83917pt too wide) in paragraph at lines 90--91
+[] 
+ []
+
+[6 <C:/Users/张涛/Desktop/HW2/New-version usecases descriptions/menuSelection
+.png (PNG copy)> <C:/Users/张涛/Desktop/HW2/New-version usecases descriptions
+/usecasesJohn.png (PNG copy)>] [7 <C:/Users/张涛/Desktop/HW2/New-version usec
+ases descriptions/MovementUseCaseDiagrams.png (PNG copy)>]
+<PortalUseCaseDiagram.png, id=32, 586.19pt x 720.6925pt>
+File: PortalUseCaseDiagram.png Graphic file (type png)
+
+<use PortalUseCaseDiagram.png>
+Package pdftex.def Info: PortalUseCaseDiagram.png used on input line 92.
+(pdftex.def)             Requested size: 351.7167pt x 432.41884pt.
+
+<MagicDiagram.png, id=33, 981.6675pt x 583.17876pt>
+File: MagicDiagram.png Graphic file (type png)
+ <use MagicDiagram.png>
+Package pdftex.def Info: MagicDiagram.png used on input line 94.
+(pdftex.def)             Requested size: 392.66003pt x 233.26736pt.
+
+[8 <C:/Users/张涛/Desktop/HW2/New-version usecases descriptions/PortalUseCase
+Diagram.png (PNG copy)>]
+<DiplomacyUseCaseDiagram.png, id=37, 541.02126pt x 381.425pt>
+File: DiplomacyUseCaseDiagram.png Graphic file (type png)
+
+<use DiplomacyUseCaseDiagram.png>
+Package pdftex.def Info: DiplomacyUseCaseDiagram.png used on input line 96.
+(pdftex.def)             Requested size: 324.61525pt x 228.85675pt.
+ [9 <C:/Users/张涛/Desktop/HW2/New-version usecases descriptions/MagicDiagram
+.png (PNG copy)> <C:/Users/张涛/Desktop/HW2/New-version usecases descriptions
+/DiplomacyUseCaseDiagram.png (PNG copy)>]
+Chapter 3.
+
+Underfull \vbox (badness 10000) detected at line 132
+ []
+
+[10
+
+]
+Underfull \vbox (badness 10000) detected at line 153
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 174
+ []
+
+[11]
+Underfull \vbox (badness 10000) detected at line 188
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 210
+ []
+
+[12]
+Underfull \vbox (badness 10000) detected at line 232
+ []
+
+[13]
+Underfull \vbox (badness 10000) detected at line 256
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 270
+ []
+
+[14]
+Underfull \vbox (badness 10000) detected at line 294
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 311
+ []
+
+[15]
+Underfull \hbox (badness 1648) in paragraph at lines 352--352
 \OT1/cmr/m/n/12 level spell with warn-ing red back-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 92
+Underfull \vbox (badness 10000) detected at line 353
  []
 
-[5
-
-]
-Underfull \vbox (badness 10000) detected at line 115
+[16]
+Underfull \vbox (badness 10000) detected at line 376
  []
 
-[6]
-Underfull \vbox (badness 10000) detected at line 138
+[17] [18] [19] [20]
+Underfull \hbox (badness 2884) in paragraph at lines 456--456
+[]\OT1/cmr/m/n/12 Character must have diplo-matic rat-ing
  []
 
-
-Underfull \vbox (badness 10000) detected at line 152
+[21]
+Underfull \vbox (badness 10000) detected at line 488
  []
 
-[7]
-Underfull \vbox (badness 10000) detected at line 176
- []
-
-
-Underfull \vbox (badness 10000) detected at line 193
- []
-
-[8] [9]
-("C:\Users\张涛\Documents\GitHub\HW2\New-version usecases descriptions\usecas
-es.aux") ) 
+[22] [23]
+("C:\Users\张涛\Desktop\HW2\New-version usecases descriptions\usecases.aux") 
+) 
 Here is how much of TeX's memory you used:
- 2512 strings out of 493921
- 40127 string characters out of 3150487
- 155299 words of memory out of 3000000
- 5817 multiletter control sequences out of 15000+200000
+ 3453 strings out of 493921
+ 53113 string characters out of 3150487
+ 172663 words of memory out of 3000000
+ 6724 multiletter control sequences out of 15000+200000
  9427 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,8n,44p,246b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
-<W:/LaTex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><W:/La
-Tex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><W:/LaTex/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb><W:/LaTex/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmssbx10.pfb><W:/LaTex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><W:/LaTex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on usecases.pdf (9 pages, 88530 bytes).
+ 35i,8n,44p,385b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+<W:/LaTex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><W:/LaTex/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><W:/LaTex/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr17.pfb><W:/LaTex/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmssbx10.pfb><W:/LaTex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<W:/LaTex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on usecases.pdf (23 pages, 503319 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
